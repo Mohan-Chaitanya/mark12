@@ -9,7 +9,7 @@ body {
   font-weight: 100;
   font-family: "Courgette", cursive;
 }
-header {
+nav {
   display: flex;
   justify-content: space-evenly;
   background-color: blanchedalmond;
