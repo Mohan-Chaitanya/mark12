@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+body {
+  position: relative;
+  color: black;
+  margin: 0;
+  padding: 0%;
+  text-align: center;
+  font-weight: 100;
+  font-family: "Courgette", cursive;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: blanchedalmond;
+}
+
+p {
+  font-size: 140%;
+  font-weight: bold;
+  position: absolute;
+  top: 40vh;
+  left: 50vh;
+  width: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#base,
+#height {
+  height: 1.5rem;
+  width: 10rem;
+}
+
+input[type="number"] {
+  height: 2rem;
+  width: 10rem;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  text-align: center;
+}
+
+input[type="submit"] {
+  width: 8rem;
+  height: 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  width: 8rem;
+  height: 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
